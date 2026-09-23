@@ -22,6 +22,7 @@
   }
   .icon:hover{
     transform: scale(1.25) translateY(-20%);
+    cursor: pointer;
   }
   .icon:hover+.icon,
   .icon:has(+ .icon:hover){
