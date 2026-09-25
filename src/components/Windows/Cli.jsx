@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./cli.scss";
 import MacWindow from "./MacWindow";
 
-const Cli = () => {
+const Cli = ({ windowName, setWindowsState }) => {
   const outputRef = useRef(null);
   const [input, setInput] = useState("");
   const [history, setHistory] = useState([
@@ -92,7 +92,7 @@ const Cli = () => {
   };
 
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="cli-window">
         <div className="cli-output" ref={outputRef}>
           {history.map((line, index) => (
