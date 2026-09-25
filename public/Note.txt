@@ -1,0 +1,166 @@
+/**
+ * @file: profile.config.ts
+ * @author: Kunal Kundnani
+ * @summary: Frontend Developer focused on building clean, responsive web experiences.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "TailwindCSS",
+    "SCSS (Basic)",
+  ],
+
+  backend: [],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "VS Code",
+    "Google Ads (Basic)",
+  ],
+};
+
+// --------------------------------------------------
+// 2. PROFESSIONAL EXPERIENCE
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * Currently seeking frontend development opportunities.
+   */
+  public currentStatus() {
+    return {
+      status: "Open to Opportunities",
+      role: "Frontend Developer / React Developer",
+      level: "Entry-Level / Internship",
+      location: "Jaipur, Rajasthan / Remote",
+    };
+  }
+}
+
+// --------------------------------------------------
+// 3. PROJECTS
+// --------------------------------------------------
+
+
+
+const projects: Project[] = [
+  {
+    name: "Gym Website UI",
+    type: "Frontend Web Project",
+
+    techStack: [
+      "React.js",
+      "TailwindCSS",
+    ],
+
+    features: [
+      "Home Page",
+      "About Section",
+      "Trainers Section",
+      "Membership Section",
+      "Pricing Section",
+      "Contact Section",
+      "Responsive Navbar",
+      "Hover Effects",
+      "Smooth Scrolling",
+      "Contact Forms",
+      "Responsive Design",
+    ],
+
+    live-link: https://gym-proto.netlify.app/,
+  },
+];
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = [
+  {
+    degree: "Bachelor of Computer Applications (BCA)",
+    institution:
+      "Compucom Institute of Information Technology and Management (CIITM), Jaipur",
+    university: "Rajasthan University",
+    period: "2023 - 2026",
+    cgpa: "8.15",
+    backlogs: 0,
+  },
+
+  {
+    degree: "Senior Secondary (12th)",
+    stream: "Commerce",
+    board: "RBSE",
+    year: 2023,
+    percentage: "88.20%",
+  },
+
+  {
+    degree: "Secondary (10th)",
+    board: "RBSE",
+    year: 2021,
+    percentage: "96.5%",
+  },
+];
+
+// --------------------------------------------------
+// 5. ABOUT
+// --------------------------------------------------
+
+const about = `
+BCA graduate and frontend developer focused on building clean,
+responsive, and user-friendly web experiences.
+
+I work with HTML, CSS, JavaScript, React, and Tailwind CSS,
+and enjoy turning ideas into functional and visually polished
+interfaces.
+
+Currently looking for frontend developer opportunities where
+I can contribute, learn from real-world projects, and grow as
+a software developer.
+`;
+
+// --------------------------------------------------
+// 6. PROFILE
+// --------------------------------------------------
+
+const profile = {
+  name: "Kunal Kundnani",
+
+  role: "Frontend Developer",
+
+  specialization: "React Developer",
+
+  status: "Open to Opportunities",
+
+  seeking: [
+    "Frontend Developer Roles",
+    "React Developer Roles",
+    "Internships",
+    "Entry-Level Opportunities",
+  ],
+
+  location: [
+    "Jaipur, Rajasthan, India",
+    "Remote",
+  ],
+
+  about,
+
+  skills: TECH_STACK,
+
+  projects,
+
+  education,
+};
+
+export default new ProfessionalHistory();
