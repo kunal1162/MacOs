@@ -15,7 +15,7 @@ const Note = () => {
   return (
     <MacWindow>
         <div className='note-window'>
-            {markdown ? <SyntaxHighlighter language='typescript'>{markdown}</SyntaxHighlighter>: <p>Loading...</p>}
+            {markdown ? <SyntaxHighlighter  style={atelierDuneDark} language='typescript'>{markdown}</SyntaxHighlighter>: <p>Loading...</p>}
         </div>
     </MacWindow>
   )
