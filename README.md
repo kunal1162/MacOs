@@ -1,8 +1,8 @@
 macOS-Style Portfolio
 A portfolio website designed like a macOS desktop, built with React.js and SCSS.
 🔗 Live demo: https://macos-project.netlify.app/
-<!-- Add a screenshot: save it as screenshot.png in this repo, then uncomment the next line -->
-<!-- ![macOS portfolio screenshot](./screenshot.png) -->
+
+![macOS portfolio screenshot](./screenshot.png) 
 Features
 Desktop-style app icons that open interactive windows:
 Spotify - music
