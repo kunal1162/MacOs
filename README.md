@@ -1,16 +1,32 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+macOS-Style Portfolio
+A portfolio website designed like a macOS desktop, built with React.js and SCSS.
+🔗 Live demo: https://macos-project.netlify.app/
+<!-- Add a screenshot: save it as screenshot.png in this repo, then uncomment the next line -->
+<!-- ![macOS portfolio screenshot](./screenshot.png) -->
+Features
+Desktop-style app icons that open interactive windows:
+Spotify - music
+Notes / PDF viewer - view documents
+GitHub - link to my GitHub profile
+Calendar
+Mail
+Terminal
+LinkedIn link to my profile
+Tech stack
+React.js
+SCSS
+Deployed on Netlify
+Run locally
+```bash
+git clone <this-repo-url>
+cd <repo-folder>
+npm install
+npm run dev     # or: npm start (use the command from your package.json scripts)
+```
+Testing
+Manually tested every app icon for the expected click and navigation behaviour
+Exploratory and UI testing to find layout and functional issues, then verified the fixes
+Checked responsiveness and visual consistency across screen sizes and browsers
+Verified all outbound links
+Author
+Kunal Kundnani - LinkedIn | GitHub
