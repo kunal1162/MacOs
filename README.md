@@ -7,11 +7,12 @@ Features
 Desktop-style app icons that open interactive windows:
 Spotify - music
 Notes / PDF viewer - view documents
-GitHub - link to my GitHub profile
+GitHub
 Calendar
 Mail
 Terminal
 LinkedIn link to my profile
+
 Tech stack
 React.js
 SCSS
